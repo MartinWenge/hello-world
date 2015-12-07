@@ -2,6 +2,7 @@
 #include <iostream>
 
 int main(int argc, char *argv[] ){
+  // standart output hello world
   std::cout << "Hello World!\n";
   return 0;
 }
