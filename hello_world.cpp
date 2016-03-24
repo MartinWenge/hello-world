@@ -5,14 +5,14 @@ using namespace std;
 template<int idx = 0>
 void print_step(const char * arr)
 {
-	print_step<idx+1>(arr+1);
-	cout << *arr;
+	cout << (3-idx)[arr];
+	print_step<idx+1>(arr);
 }
 
 template<>
 void print_step<3>(const char * arr)
 {
-	cout << *arr;
+	cout << 0[arr];
 }
 
 void print() {}
